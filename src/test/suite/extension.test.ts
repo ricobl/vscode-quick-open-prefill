@@ -36,8 +36,8 @@ suite('Extension Test Suite', () => {
   });
 
   test('replaces multiple non-word characters with spaces', async function() {
-    await createDocumentWithSelection('Module::Class');
+    await createDocumentWithSelection('Module::Class::Subclass');
     vscode.commands.executeCommand('quick-open-prefill.quickOpenWithSelection');
-    assert.strictEqual(this.quickOpenText, 'Module Class');
+    assert.strictEqual(this.quickOpenText, 'Module Class Subclass');
   });
 });

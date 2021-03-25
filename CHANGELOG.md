@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## Unreleased
 
+## 0.0.3
+
+- Ensure multiple occurrences of non-word characters are replaced
+
 ## 0.0.2
 
 - Add capability to replace non-word characters

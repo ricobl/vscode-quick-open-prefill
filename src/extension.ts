@@ -7,7 +7,7 @@ export function activate(context: vscode.ExtensionContext) {
     let selection = editor?.selection;
 
     let text = document && document.getText(selection);
-    text = text?.replace(/[^\w]+/, ' ');
+    text = text?.replace(/[^\w]+/g, ' ');
 
     vscode.commands.executeCommand('workbench.action.quickOpen', text);
   });

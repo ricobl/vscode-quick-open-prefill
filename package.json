@@ -2,7 +2,7 @@
   "name": "quick-open-prefill",
   "displayName": "Quick Open Prefill",
   "description": "Provides a command to prefill the quick open dialog with the current selection.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Enrico Luz",
   "publisher": "ricobl",
   "repository": "https://github.com/ricobl/vscode-quick-open-prefill.git",
